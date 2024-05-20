@@ -27,7 +27,7 @@ collections:
           label: "Category",
           name: "category",
           widget: "select",
-          options: ["react", "js", "ts", "react-native", "misc", "dev"],
+          options: ["react", "js", "ts", "react-native", "misc", "dev", 'ruby', 'RoR'],
         }
       - {
           label: "Background",
@@ -41,6 +41,8 @@ collections:
               { label: "React-Native", value: "#61dafb" },
               { label: "Misc", value: "#7AAB13" },
               { label: "Dev", value: "#637a91" },
+              { label: "RoR", value: "#D30001" },
+              { label: "Ruby", value: "#CC342D" },
             ],
         }
       - { label: "image", name: "thumbnail", widget: "image" }

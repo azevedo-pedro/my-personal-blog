@@ -3,9 +3,9 @@ const queries = require("./src/utils/algolia_queries")
 module.exports = {
   siteMetadata: {
     title: `Pedro Azevedo`,
-    position: "Frontend Developer at Softvaro",
-    description: `Um blog que fala sobre tecnologia`,
-    author: `@azevedoDev`,
+    position: "Fullstack Developer at Tryvia",
+    description: `Um Blog que está sendo refeito`,
+    author: `@azevedodev`,
     siteUrl: "https://azevedo.dev",
   },
   plugins: [
@@ -95,9 +95,5 @@ module.exports = {
         allExtensions: true, // defaults to false
       },
     },
-
-    // this (optional) plugin enables Progressive Web App + Offline functionality
-    // To learn more, visit: https://gatsby.dev/offline
-    `gatsby-plugin-offline`,
   ],
 }

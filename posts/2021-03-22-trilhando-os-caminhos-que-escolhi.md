@@ -8,12 +8,13 @@ category: dev
 background: "#637a91"
 thumbnail: /static/assets/img/road.png
 ---
+
 Olá jovem!
 
 Como estão as coisas? tudo bem? Espero que sim.\
-Muito obrigado por voltar a visitar meu humilde Blog! Já fiz algumas melhorias, como passar tudo para Typescript, ajustar alguns plugins do Gatsby, fixando a versão do NodeJS lá no Netlify e se quiser dar uma acompanhada no que alterei segue esse [](https://github.com/AzevedoDev/my-personal-blog/commits/developer)[repositório](https://github.com/AzevedoDev/my-personal-blog).
+Muito obrigado por voltar a visitar meu humilde Blog! Já fiz algumas melhorias, como passar tudo para Typescript, ajustar alguns plugins do Gatsby, fixando a versão do NodeJS lá no Netlify e se quiser dar uma acompanhada no que alterei segue esse [](https://github.com/azevedo-pedro/my-personal-blog/commits/developer)[repositório](https://github.com/azevedo-pedro/my-personal-blog).
 
-Para não sair muito do costume, hoje eu estou ouvindo a banda [Bad Wolves](spotify:artist:0eI3X5rAzHRZVe5FPk4MN1) que é uma pegada heavy metal/groove metal, algo inspirado no Pantera, Sepultura e Fear Factory, o album em questão que estou ouvindo é o ***N.A.T.I.O.N,*** depois de uma olhada se curtir esse tipo de música.
+Para não sair muito do costume, hoje eu estou ouvindo a banda [Bad Wolves](spotify:artist:0eI3X5rAzHRZVe5FPk4MN1) que é uma pegada heavy metal/groove metal, algo inspirado no Pantera, Sepultura e Fear Factory, o album em questão que estou ouvindo é o **_N.A.T.I.O.N,_** depois de uma olhada se curtir esse tipo de música.
 
 Hoje o papo vai ser mais sobre carreira, como vocês podem ver no sobre mim, eu resolvi que seria especialista em front-end, mas como posso definir que vou ser especialista em algo se eu mal sei o que quero da minha vida? Explico, nesses últimos meses, eu andei passando por alguns problemas de performance no trabalho, rendi menos do que de costume e se me perguntar o motivo, eu sei exatamente o que é, **falta de plano de carreira.**
 
