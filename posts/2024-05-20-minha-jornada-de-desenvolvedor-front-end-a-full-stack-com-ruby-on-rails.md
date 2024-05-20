@@ -1,6 +1,6 @@
 ---
 title: Minha Jornada de Desenvolvedor Front-End a Full-Stack com Ruby on Rails
-description: Minha Jornada de Desenvolvedor Front-End a Full-Stack com Ruby on Rails
+description: Falo um pouco de como foi a transição de front-end para full-stack com Ruby
 date: 2024-05-20 03:26:24
 category: ruby
 background: "#CC342D"
