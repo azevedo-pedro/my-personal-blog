@@ -58,9 +58,11 @@ Make sure you have the following installed:
 Start the development server to see your site in action:
 ```sh
 gatsby develop
+```
 
 or
 
+```sh
 npm start
 ```
 
