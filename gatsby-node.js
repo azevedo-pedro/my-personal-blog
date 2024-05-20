@@ -24,7 +24,7 @@ exports.onCreateNode = ({ node, getNode, actions }) => {
   }
 }
 
-exports.sourceNodes = ({ actions, schema }) => {
+exports.createSchemaCustomization = ({ actions, schema }) => {
   const { createTypes } = actions
 
   createTypes(`
