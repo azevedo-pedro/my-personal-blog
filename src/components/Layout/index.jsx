@@ -8,11 +8,8 @@ import * as S from "./styled"
 import GlobalStyles from "../../styles/global"
 import { graphql, useStaticQuery } from "gatsby"
 import Profile from "../Profile"
-type Props = {
-  children: React.ReactNode
-}
 
-const Layout = ({ children }: Props) => {
+const Layout = ({ children }) => {
   const [isMenuOpen, setIsMenuOpen] = useState(false)
 
   const { site } = useStaticQuery(graphql`

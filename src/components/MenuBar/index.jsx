@@ -1,7 +1,6 @@
 import React, { useState, useEffect } from "react"
 
 import { Home } from "styled-icons/boxicons-solid"
-import { SearchAlt2 as Search } from "styled-icons/boxicons-regular"
 import { UpArrowAlt as Arrow } from "styled-icons/boxicons-regular"
 import { Menu } from "styled-icons/boxicons-regular"
 import { LightBulb as Light } from "@styled-icons/entypo/LightBulb"
@@ -12,19 +11,8 @@ import getThemeColor from "../../utils/getThemeColor"
 
 import * as S from "./styled"
 
-declare global {
-  interface Window {
-    __theme: string | undefined
-    __display: any
-    __onThemeChange: () => void
-    __onDisplayChange: () => void
-    __setPreferredTheme: (isDarkMode: "light" | "dark") => void
-    __setPreferredDisplay: (isListMode: "grid" | "list") => void
-  }
-}
-
 const MenuBar = ({ setIsMenuOpen, isMenuOpen }) => {
-  const [theme, setTheme] = useState<string | undefined>(undefined)
+  const [theme, setTheme] = useState(undefined)
   const [display, setDisplay] = useState(null)
 
   const isDarkMode = theme === "dark"

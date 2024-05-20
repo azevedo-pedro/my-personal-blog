@@ -2,7 +2,7 @@ import React from "react"
 import styled from "styled-components"
 import { Link } from "gatsby"
 import Layout from "../components/Layout"
-import SEO from "../components/seo"
+import Seo from "../components/seo"
 import { StaticImage } from "gatsby-plugin-image"
 
 const NotFoundWrapper = styled.section`
@@ -34,7 +34,7 @@ const Button = styled(Link)`
 const NotFoundPage = () => {
   return (
     <Layout>
-      <SEO title="404: Not found" image="https://http.cat/404.jpg" />
+      <Seo title="404: Not found" image="https://http.cat/404.jpg" />
       <NotFoundWrapper>
         <StaticImage src="https://http.cat/404.jpg" alt="not found page cat" />
         <Button to="/">De volta ao blog!</Button>

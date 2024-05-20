@@ -8,15 +8,8 @@
 import React from "react"
 import Helmet from "react-helmet"
 import { useStaticQuery, graphql } from "gatsby"
-interface Props {
-  description?: string
-  lang?: string
-  meta?: []
-  title: string
-  image?: string
-}
 
-function SEO({ description, lang, meta, title, image }: Props) {
+function SEO({ description, lang, meta, title, image }) {
   const { site } = useStaticQuery(
     graphql`
       query {

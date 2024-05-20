@@ -2,15 +2,6 @@ import React from "react"
 import getThemeColor from "../../utils/getThemeColor"
 
 import * as S from "./styled"
-type Props = {
-  slug: string
-  background?: string
-  category: string
-  date: string
-  timeToRead?: number
-  title: string
-  description: string
-}
 
 const PostItem = ({
   slug,
@@ -20,7 +11,7 @@ const PostItem = ({
   timeToRead,
   title,
   description,
-}: Props) => (
+}) => (
   <S.PostItemLink
     to={slug}
     cover

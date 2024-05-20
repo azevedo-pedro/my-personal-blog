@@ -4,26 +4,8 @@ import propTypes from "prop-types"
 import * as S from "./styled"
 import getThemeColor from "../../utils/getThemeColor"
 
-type RecommendedPosts = {
-  next: {
-    frontmatter: {
-      title: string
-    }
-    fields: {
-      slug: string
-    }
-  }
-  previous: {
-    frontmatter: {
-      title: string
-    }
-    fields: {
-      slug: string
-    }
-  }
-}
 
-const RecommendedPosts = ({ next, previous }: RecommendedPosts) => (
+const RecommendedPosts = ({ next, previous }) => (
   <S.RecommendedWrapper>
     {previous && (
       <S.RecommendedLink
@@ -50,4 +32,24 @@ const RecommendedPosts = ({ next, previous }: RecommendedPosts) => (
   </S.RecommendedWrapper>
 )
 
+const RecommendedPostsPropTypes = {
+  next: propTypes.shape({
+    frontmatter: propTypes.shape({
+      title: propTypes.string.isRequired,
+    }).isRequired,
+    fields: propTypes.shape({
+      slug: propTypes.string.isRequired,
+    }).isRequired,
+  }).isRequired,
+  previous: propTypes.shape({
+    frontmatter: propTypes.shape({
+      title: propTypes.string.isRequired,
+    }).isRequired,
+    fields: propTypes.shape({
+      slug: propTypes.string.isRequired,
+    }).isRequired,
+  }).isRequired,
+};
+
+RecommendedPosts.propTypes = RecommendedPostsPropTypes
 export default RecommendedPosts
