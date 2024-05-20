@@ -57,18 +57,6 @@ const MenuBar = ({ setIsMenuOpen, isMenuOpen }) => {
             <Home />
           </S.MenuBarItem>
         </S.MenuBarLink>
-        <S.MenuBarLink
-          to="/search/"
-          cover
-          direction="right"
-          bg={getThemeColor()}
-          duration={0.6}
-          title="Pesquisar"
-        >
-          <S.MenuBarItem>
-            <Search />
-          </S.MenuBarItem>
-        </S.MenuBarLink>
       </S.MenuBarGroup>
 
       <S.MenuBarGroupMobile>
